@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testCase.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.VendorLicenseeManagementTC">
+        <methods>
+          <include name="TC_426"/>
+          <include name="TC_448"/>
+          <include name="TC_427"/>
+          <include name="TC_449"/>
+          <include name="TC_442"/>
+          <include name="TC_464"/>
+          <include name="TC_440"/>
+          <include name="TC_462"/>
+          <include name="TC_465"/>
+          <include name="TC_443"/>
+          <include name="TC_424"/>
+          <include name="TC_446"/>
+          <include name="TC_441"/>
+          <include name="TC_463"/>
+          <include name="TC_444"/>
+          <include name="TC_466"/>
+          <include name="TC_425"/>
+          <include name="TC_447"/>
+          <include name="TC_445"/>
+          <include name="afterExecution"/>
+          <include name="TC_450"/>
+          <include name="TC_437"/>
+          <include name="TC_459"/>
+          <include name="TC_438"/>
+          <include name="Browser"/>
+          <include name="TC_453"/>
+          <include name="TC_451"/>
+          <include name="TC_454"/>
+          <include name="TC_435"/>
+          <include name="TC_430"/>
+          <include name="TC_452"/>
+          <include name="TC_474"/>
+          <include name="TC_433"/>
+          <include name="TC_455"/>
+          <include name="TC_436"/>
+          <include name="TC_458"/>
+          <include name="TC_434"/>
+          <include name="TC_456"/>
+          <include name="TC_460"/>
+          <include name="TC_428"/>
+        </methods>
+      </class> <!-- testCase.VendorLicenseeManagementTC -->
+      <class name="testCase.DefaceStampTC">
+        <methods>
+          <include name="TC_337"/>
+          <include name="TC_325"/>
+          <include name="TC_336"/>
+          <include name="TC_335"/>
+          <include name="TC_334"/>
+          <include name="TC_322"/>
+          <include name="TC_333"/>
+          <include name="TC_321"/>
+          <include name="TC_332"/>
+          <include name="TC_320"/>
+          <include name="TC_331"/>
+          <include name="TC_330"/>
+          <include name="TC_319"/>
+          <include name="TC_318"/>
+          <include name="TC_329"/>
+          <include name="TC_328"/>
+          <include name="TC_327"/>
+          <include name="Browser"/>
+          <include name="afterExecution"/>
+        </methods>
+      </class> <!-- testCase.DefaceStampTC -->
+      <class name="testCase.DefaceReportTC">
+        <methods>
+          <include name="afterExecution"/>
+          <include name="TC_350"/>
+          <include name="TC_340"/>
+          <include name="TC_351"/>
+          <include name="TC_346"/>
+          <include name="TC_338"/>
+          <include name="TC_349"/>
+          <include name="TC_339"/>
+          <include name="Browser"/>
+          <include name="TC_354"/>
+          <include name="TC_341"/>
+          <include name="TC_352"/>
+          <include name="TC_344"/>
+          <include name="TC_355"/>
+          <include name="TC_347"/>
+          <include name="TC_353"/>
+          <include name="TC_356"/>
+          <include name="TC_348"/>
+        </methods>
+      </class> <!-- testCase.DefaceReportTC -->
+      <class name="testCase.MeterSummaryReportTC">
+        <methods>
+          <include name="TC_312"/>
+          <include name="Browser"/>
+          <include name="TC_307"/>
+          <include name="TC_306"/>
+          <include name="TC_317"/>
+          <include name="TC_316"/>
+          <include name="TC_309"/>
+          <include name="TC_310"/>
+          <include name="TC_315"/>
+          <include name="afterExecution"/>
+          <include name="TC_314"/>
+          <include name="TC_313"/>
+        </methods>
+      </class> <!-- testCase.MeterSummaryReportTC -->
+      <class name="testCase.UserManagementTC">
+        <methods>
+          <include name="TC_386"/>
+          <include name="TC_389"/>
+          <include name="TC_422"/>
+          <include name="TC_388"/>
+          <include name="TC_421"/>
+          <include name="TC_385"/>
+          <include name="TC_387"/>
+          <include name="TC_395"/>
+          <include name="TC_392"/>
+          <include name="TC_393"/>
+          <include name="TC_390"/>
+          <include name="TC_397"/>
+          <include name="TC_399"/>
+          <include name="TC_396"/>
+          <include name="TC_398"/>
+          <include name="TC_405"/>
+          <include name="TC_408"/>
+          <include name="TC_364"/>
+          <include name="TC_407"/>
+          <include name="TC_404"/>
+          <include name="TC_409"/>
+          <include name="TC_406"/>
+          <include name="TC_403"/>
+          <include name="TC_367"/>
+          <include name="TC_400"/>
+          <include name="browser"/>
+          <include name="TC_369"/>
+          <include name="TC_402"/>
+          <include name="TC_366"/>
+          <include name="TC_368"/>
+          <include name="TC_401"/>
+          <include name="TC_365"/>
+          <include name="TC_373"/>
+          <include name="TC_372"/>
+          <include name="afterExecution"/>
+          <include name="TC_371"/>
+          <include name="TC_419"/>
+          <include name="TC_375"/>
+          <include name="TC_418"/>
+          <include name="TC_415"/>
+          <include name="TC_414"/>
+          <include name="TC_378"/>
+          <include name="TC_411"/>
+          <include name="TC_413"/>
+          <include name="TC_377"/>
+          <include name="TC_410"/>
+          <include name="TC_374"/>
+          <include name="TC_379"/>
+          <include name="TC_384"/>
+          <include name="TC_381"/>
+          <include name="TC_383"/>
+          <include name="TC_380"/>
+          <include name="TC_382"/>
+          <include name="newTest"/>
+        </methods>
+      </class> <!-- testCase.UserManagementTC -->
+      <class name="testCase.DefaceBySerialNoTC">
+        <methods>
+          <include name="TC_363"/>
+          <include name="TC_360"/>
+          <include name="TC_359"/>
+          <include name="TC_358"/>
+          <include name="afterExecution"/>
+          <include name="Browser"/>
+          <include name="TC_362"/>
+          <include name="TC_361"/>
+        </methods>
+      </class> <!-- testCase.DefaceBySerialNoTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
